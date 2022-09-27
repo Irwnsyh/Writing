@@ -76,9 +76,82 @@ Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk menger
     $ git init project1
 ```
     
-- git status digunakan untuk melihat apakah terjadi perubahan atau tidak pada Git.
+- git Status digunakan untuk melihat apakah terjadi perubahan atau tidak pada Git 
+- git add untuk menambah file baru/file yang telah diubah pada Git  
+- git remote menghubungkan remote repository dengan project local yang telah kita buat direktorinya 
+- git commit -m "commit message" digunakan untuk menyimpan perubahan pada Git
+- git push -u origin master digunakan untuk mengirimkan/perubahan file ke remote repository 
+- git branch -b [nama branch] digunakan untuk membuat branch baru
+- git checkout digunakan untuk berpindah branch
+- git merge digunakan untuk menggabungkan branch cabang ke branch master ( git merge origin/(nama branch))
+    
+    &nbsp;
+    
+## **HTML**
+### Defenisi
+Hypertext Markup Language (**HTML**) adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang ditafsirkan pada web agar konten halamannya dapat ditampilkan dengan benar.
+
+### Tools Pendukung HTML
+- Tools yang dibutuhkan untuk untuk membuat HTML yaitu web browser dan code editor.
+- Kemudian Visual Studio Code juga diperlukan, VScode merupakan salah satu code editor yang dibuat oleh Misrosoft
+    
+### Kerangka HTML
+HTML memiliki kerangka seperti syxntax berikut ini:
 ```
-    sad
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello World</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+    <body>
+        <div>
+            <h1 class="header">Hello World!!!</h1>
+            <p>Apa Kabar Dunia?</p>
+        </div>
+    </body>
+</html>>
 ```
     
-- git adduntuk menahbahkan file baru/file yang telah diubah pada Git
+### Tag HTML
+Tag adalah sebauh penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
+Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
+Contoh tag HTML:
+- Tag untuk membuat tulisan tebal dan miring
+```
+    <b>Tebal</b> <i>Miring</i>
+```
+- Tag HTML Untuk Membuat tulisan dengan link
+```
+    <a href="">Hello World!!!</a>
+```
+- Tag Untuk Membuat Daftar/List
+    - Ordered List
+
+      ```html
+      <ol>
+        Kelompok
+        <li>Kelompok1</li>
+        <li>Kelompok2</li>
+        <li>Kelompok3</li>
+      </ol>
+      ```
+
+      Hasilnya di web browser
+
+      ![](gambar/ol.jpg)
+
+    - Unordered List
+
+      ```html
+      <ul>
+        Kelompok
+        <li>Kelompok1</li>
+        <li>Kelompok2</li>
+        <li>Kelompok3</li>
+      </ul>
+      ```
+
+      Hasilnya di web browser
+
+      ![](gambar/ul.jpg)
