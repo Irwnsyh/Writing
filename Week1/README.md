@@ -184,3 +184,6 @@ Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan 
     
     &nbsp;
 
+## **CSS**
+- Definisi
+CSS adalah singkatan dari cascading style sheets, yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, Anda bisa mengatur jenis font, warna tulisan, dan latar belakang halaman.
