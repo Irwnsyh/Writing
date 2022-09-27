@@ -44,7 +44,32 @@ GIT dan GitHub sebenarnya merupakan dua platform yang didirikan oleh perusahaan 
 ### Mengapa wajib menggunakan Git & Github?
 Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk mengerjakan semuanya sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
 
-- ### Command di dalam Git & Github
-  - <div align="justify">Hal pertama yang sebaiknya Anda lakukan ketika memasang Git adalah menetapkan nama pengguna dan alamat surel. Ini penting, karena setiap commit pada Git menggunakan informasi ini, dan itu dituliskan dan tidak dapat diganti ke dalam commit yang Anda buat:
-  > $ git config --global user.name "Irwansyah"
-  > $ git config --global user.email "Irwansya@example.com"
+### Apa Saja Command di dalam Git & Github?
+- <div align="justify"> Hal pertama yang sebaiknya Anda lakukan ketika memasang Git adalah menetapkan nama pengguna dan alamat surel. Ini penting, karena setiap commit pada Git menggunakan informasi ini, dan itu dituliskan dan tidak dapat diganti ke dalam commit yang Anda buat:
+    
+```
+    $ git config --global user.name "irwansyah"
+    $ git config --global user.email "irwnsyh0812@gmail.com"
+```
+ 
+- <div align="justify"> Ketika ingin memeriksa pengaturan, Kita dapat menggunakan perintah git config --list:
+
+```
+    $ git config --list
+    pack.packsizelimit=2g
+    diff.astextplain.textconv=astextplain
+    filter.lfs.clean=git-lfs clean -- %f
+    filter.lfs.smudge=git-lfs smudge -- %f
+    filter.lfs.process=git-lfs filter-process
+    filter.lfs.required=true
+    http.sslbackend=openssl
+    http.sslcainfo=C:/Program Files/Git/mingw32/ssl/certs/ca-bundle.crt
+    core.autocrlf=true
+    core.fscache=true
+    core.symlinks=false
+    pull.rebase=false
+    init.defaultbranch=master
+    user.name=irwansyah
+    user.email=irwnnsyh0812@gmail.com
+```
+-   
