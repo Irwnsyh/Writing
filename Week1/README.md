@@ -45,15 +45,13 @@ GIT dan GitHub sebenarnya merupakan dua platform yang didirikan oleh perusahaan 
 Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk mengerjakan semuanya sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
 
 ### Apa Saja Command di dalam Git & Github?
-- <div align="justify"> Hal pertama yang sebaiknya Anda lakukan ketika memasang Git adalah menetapkan nama pengguna dan alamat surel. Ini penting, karena setiap commit pada Git menggunakan informasi ini, dan itu dituliskan dan tidak dapat diganti ke dalam commit yang Anda buat:
-    
+- <div align="justify"> Hal pertama yang sebaiknya Anda lakukan ketika memasang Git adalah menetapkan nama pengguna dan alamat surel. Ini penting, karena setiap commit pada Git menggunakan informasi ini, dan itu dituliskan dan tidak dapat diganti ke dalam commit yang Anda buat:   
 ```
     $ git config --global user.name "irwansyah"
     $ git config --global user.email "irwnsyh0812@gmail.com"
 ```
  
 - <div align="justify"> Ketika ingin memeriksa pengaturan, Kita dapat menggunakan perintah git config --list:
-
 ```
     $ git config --list
     pack.packsizelimit=2g
@@ -72,4 +70,15 @@ Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk menger
     user.name=irwansyah
     user.email=irwnnsyh0812@gmail.com
 ```
--   
+    
+- git init <nama_proyek>, digunakan untuk membuat repository di file lokal.
+```
+    $ git init project1
+```
+    
+- git status digunakan untuk melihat apakah terjadi perubahan atau tidak pada Git.
+```
+    sad
+```
+    
+- git adduntuk menahbahkan file baru/file yang telah diubah pada Git
