@@ -43,3 +43,8 @@ GIT dan GitHub sebenarnya merupakan dua platform yang didirikan oleh perusahaan 
 
 ### Mengapa wajib menggunakan Git & Github?
 Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk mengerjakan semuanya sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
+
+- ### Command di dalam Git & Github
+  - <div align="justify">Hal pertama yang sebaiknya Anda lakukan ketika memasang Git adalah menetapkan nama pengguna dan alamat surel. Ini penting, karena setiap commit pada Git menggunakan informasi ini, dan itu dituliskan dan tidak dapat diganti ke dalam commit yang Anda buat:
+  > $ git config --global user.name "Irwansyah"
+  > $ git config --global user.email "Irwansya@example.com"
