@@ -148,3 +148,39 @@ Contoh tag HTML:
       </ul>
       ```
 
+- Tag HTML Untuk Menampilkan gambar
+```
+    <img src="https://bit.ly/2FKluzq" alt="Si Kucing"></img>
+```
+- Semantic HTML
+Yaitu menggunakan elemen HTML sesuai dengan kebutuhan konten. Contoh yaitu header, footer, nav, section, aside, dll.
+```
+    <body>
+
+  <header>
+    <h1>My Jurnal</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <article>
+    <h1>Welcome To My Jurnal</h1>
+    <p>Selamat Datang di Jurnal Saya. 
+    </p>
+  </article>
+
+  <footer>
+    Copyright &copy; 2022 by Irwansyah
+  </footer>
+
+</body>
+```
+- Deployment HTML
+Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify.
+    
+    &nbsp;
+
