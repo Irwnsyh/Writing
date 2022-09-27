@@ -287,3 +287,44 @@ Penjelasan :
 
 - ### Responsive Web Design
 Adalah pendekatan untuk pembuatan halaman web yang memanfaatkan tata letak yang fleksibel, gambar yang fleksibel dan kueri media pada style sheet. Keuntungan aplikasi web yang menerapkan responsive adalah informasi yang ditampilkan pada website  dapat disampaikan dan diterima oleh pengunjung dengan baik, tanpa kehilangan sebagian informasi dan terlepas diakses dari perangkat mobile apapun. Cara untuk mengatur layout ini juga biasa disebut **Flexbox**.
+
+  &nbsp;
+
+## **Algoritma and Pseudocode**
+- Algoritma adalah deskripsi berupa tahapan-tahapan yang logis untuk mnyelesaikan suatu masalah
+- Algoritma berfungsi untuk menyelesaikan masalah secara tersetruktur
+- Kualitas suatu algoritma :
+  - Input & output harus jelas/ didefinisikan terlebih dahulu dengan tepat
+  - Setiap tahapan harus benar -benar selesai dan tidak ambigu
+  - Algoritma seharusnya tidak mengandung suatu code pada bahasa pemrograman tertentu.
+  - Algoritma harus dibuat agar dapat digunakan dalam bahasa pemrograman apapun
+- Kenapa harus mempelajari algotima :
+  - Pemrograman terdiri atas algoritma dan struktur data
+  - Struktur data digunakan untuk mngelola sebuah data
+  - Algoritma menyelesaikan suatu permsalahan mnggunakan sebuah data tersebut
+- Contoh Algoritma 
+```
+Input 1 = 10
+Input 2 = 5
+Output = Input 1 + Input 2
+Print ("Result", output)
+```
+- Pseudocode merupakan tools yang digunakan untuk menulis algoritma 
+- Panduan menulis pseudocode :
+  - Huruf kapital digunakan untuk menulis perintah
+  - 1 statement hanya terdiri dari 1 baris
+  - Menggunakan indentasi
+  - Harus bersifat spesifik dan simple
+- Contoh Pseudocode
+```
+Deklarasi 
+Jam, Detik 
+INPUT jam 
+	  Convert Jam ke Detik (*3600)
+DISPLAY result
+```
+- Jenis Pseudocode :
+  - Procedural : cara berpikir runut 
+  - Conditional: jika dibutuhkan suatu percabangan masalah (if else)
+  - Looping    : sebuah perintah yg diulang-ulang
+  - Recursive  : sebuah perintah yang memanggil method/function didalam sebuah function
