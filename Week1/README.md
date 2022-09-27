@@ -1,5 +1,5 @@
 # Rangkuman Week 1
-## Unix Command Line
+## **Unix Command Line**
 - ### Command Line Interface (CLI)
 Merupakan program yang memungkinkan pengguna mengetik perintah teks yang memerintahkan komputer untuk melakukan tugas tertentu.
 - ### Shell
@@ -21,3 +21,10 @@ Struktur yang mengatur bagaimana cara data disimpan di sistem. Contoh Sistem ope
   - **rm** (remove), untuk menghapus file directory
 
   &nbsp;
+
+## **Git & Github**
+- ### Git & Github itu apa?
+  - Git
+  <div align="justify">
+  - Github
+  <div align="justify">
