@@ -137,10 +137,6 @@ Contoh tag HTML:
       </ol>
       ```
 
-      Hasilnya di web browser
-
-      ![](gambar/ol.jpg)
-
     - Unordered List
 
       ```html
@@ -152,6 +148,3 @@ Contoh tag HTML:
       </ul>
       ```
 
-      Hasilnya di web browser
-
-      ![](gambar/ul.jpg)
