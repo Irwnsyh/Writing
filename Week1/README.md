@@ -24,7 +24,8 @@ Struktur yang mengatur bagaimana cara data disimpan di sistem. Contoh Sistem ope
 
 ## **Git & Github**
 - ### Git & Github itu apa?
-  - Git
-  <div align="justify">
-  - Github
-  <div align="justify">
+  - **Git**
+  <div align="justify">Merupakan sebuah tools bagi para programmer dan developer yang berfungsi sebagai control system untuk menjalankan proyek pengembangan software. Tujuan penggunaan GIT yakni untuk mengelola versi source code program dengan menentukan baris serta kode yang akan ditambahkan atau diganti.
+  
+  - **Github**
+  <div align="justify">Merupakan layanan cloud yang berguna untuk menyimpan dan mengelola sebuah project yang dinamakan repository (repo git). Cara kerja pada GitHub harus terkoneksi pada internet sehingga tidak perlu meng-install sebuah software ke dalam perangkat keras.
