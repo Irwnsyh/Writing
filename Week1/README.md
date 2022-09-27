@@ -88,7 +88,7 @@ Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk menger
     &nbsp;
     
 ## **HTML**
-### Defenisi
+### Definisi
 Hypertext Markup Language (**HTML**) adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang ditafsirkan pada web agar konten halamannya dapat ditampilkan dengan benar.
 
 ### Tools Pendukung HTML
@@ -182,8 +182,108 @@ Yaitu menggunakan elemen HTML sesuai dengan kebutuhan konten. Contoh yaitu heade
 - Deployment HTML
 Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify.
     
-    &nbsp;
+  &nbsp;
 
 ## **CSS**
-- Definisi
+- ### Definisi
 CSS adalah singkatan dari cascading style sheets, yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, Anda bisa mengatur jenis font, warna tulisan, dan latar belakang halaman.
+- ### Syntax Dasar CSS
+Adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+Contoh dari syntax CSS, yaitu:
+```
+    p {
+      color: red;
+    }
+```
+Penjelasan :
+
+  - p
+
+    Adalah sebuah selector berupa element HTML yang akan diubah
+
+  - color
+
+    <div align="justify">Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element p
+
+  - red
+
+    Adalah value yaitu nilai/hiasan berupa warna merah
+      
+- ### Styling CSS pada sebuah halaman HTML 
+
+  1. Inline Styles
+
+     Kita menambahkann CSS langsung pada atribut HTML
+
+     ```html
+     <p style="color:red">Tulisan ini berwarna merah</p>
+     ```
+
+  2. Internal CSS
+
+     Kita menggunakan element/tag `<style>` untuk menyisipkan kode CSS. element/tag `<style>` diletakkan di dalam element `<head>`
+
+     ```html
+     <!DOCTYPE html>
+     <html>
+       <head>
+         <title>Website Pertamaku</title>
+         <style>
+           body {
+             background-color: yellow;
+           }
+           h1 {
+             color: blue;
+           }
+           p {
+             color: red;
+           }
+         </style>
+       </head>
+       <body>
+         <h1>Website Pertamaku</h1>
+         <p>Selamat Datang</p>
+       </body>
+     </html>
+     ```
+
+  3. Eksternal CSS
+
+     <div align="justify">Kita akan menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element <link>. Element <link> tersebut diletakkan di dalam element <head>
+
+     Contoh:
+
+     <div align="justify">Kita memiliki dua file: index.html untuk file HTML-nya dan styles.css untuk file CSS-nya.
+
+     ```html
+     <!-- File index.html -->
+
+     <!DOCTYPE html>
+     <html>
+       <head>
+         <title>Website Pertamaku</title>
+         <link rel="stylesheet" href="styles.css" />
+       </head>
+       <body>
+         <h1>Website Pertamaku</h1>
+         <p>Selamat Datang</p>
+       </body>
+     </html>
+     ```
+
+     ```css
+     /* File styles.css */
+
+     body {
+       background-color: pink;
+     }
+     h1 {
+       color: blue;
+     }
+     p {
+       color: black;
+     }
+     ```
+
+- ### Responsive Web Design
+Adalah pendekatan untuk pembuatan halaman web yang memanfaatkan tata letak yang fleksibel, gambar yang fleksibel dan kueri media pada style sheet. Keuntungan aplikasi web yang menerapkan responsive adalah informasi yang ditampilkan pada website  dapat disampaikan dan diterima oleh pengunjung dengan baik, tanpa kehilangan sebagian informasi dan terlepas diakses dari perangkat mobile apapun. Cara untuk mengatur layout ini juga biasa disebut **Flexbox**.
