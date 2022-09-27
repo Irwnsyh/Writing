@@ -29,3 +29,17 @@ Struktur yang mengatur bagaimana cara data disimpan di sistem. Contoh Sistem ope
   
   - **Github**
   <div align="justify">Merupakan layanan cloud yang berguna untuk menyimpan dan mengelola sebuah project yang dinamakan repository (repo git). Cara kerja pada GitHub harus terkoneksi pada internet sehingga tidak perlu meng-install sebuah software ke dalam perangkat keras.
+
+### Apa Perbedaan Git & Github?
+GIT dan GitHub sebenarnya merupakan dua platform yang didirikan oleh perusahaan dan dengan tujuan yang sama, namun fitur yang dimilikinya berbeda. Berikut ini beberapa perbedaan antara GIT dan GitHub, yaitu:
+
+|**Git**| **Github** |
+|--|--|
+| Dikelola oleh The Linux Foundation | Diakuisisi oleh Microsoft |
+| Diakses secara offline | Diakses secara online |
+| Tidak memakai fitur user management |	Menggunakan fitur user management |
+| Install software di penyimpanan lokal | Di-host melalui layanan cloud |
+|Fokus pada version control dan code sharing | Fokus pada source code hosting yang terpusat |
+
+### Mengapa wajib menggunakan Git & Github?
+Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk mengerjakan semuanya sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
