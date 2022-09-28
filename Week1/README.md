@@ -528,3 +528,9 @@ Ada 6 macam tipe data fundamaental pada javascript yaitu :
 	isNowSale ? console.log('Let's shopping now) : console.log('Shopping later);
 	```
 ### **Looping**
+- **Looping** adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
+- Ada beberapa macam looping, yaitu:
+	- **FOR LOOP** merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan.
+	- **WHILE LOOP** digunakan untuk menjalankan instruksi pengulangan kondisi bernilai TRUE.
+	- **Do While** digunakan untuk mengeksekusi kode setidaknya satu kali bahkan jika kondisi mengembalikan false.
+	- **Nested loop** adalah loop di dalam loop, yaitu kita sebut saja loop luar dan loop dalam. Jadi, konsepnya, iterasi pertama loop luar dijalankan terlebih dahulu, kemudian menunggu sampai loop dalam selesai, baru melanjutkan ke iterasi kedua loop luar yang juga menunggu sampai loop dalam selesai dijalankan lagi, dan diulangi terus sampai semua iterasi dijalankan.
