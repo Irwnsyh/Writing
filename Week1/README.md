@@ -357,11 +357,174 @@ DISPLAY result
 	     > ***confirm()*** digunakan untuk melakukan konfirmasi dalam melakukan tindakan tertentu.
 	     ```confirm
 	     <script>
-		 var yakin = confirm("Apakah kamu yakin akan mengunjungi petanikode?");
+		 var yakin = confirm("Apakah kamu yakin akan mengunjungi Github Irwansyah?");
 		 if (yakin) {
-		     window.location = "https://www.petanikode.com";
+		     window.location = "https://www.github.com/Irwnsyh/Writing/";
 		 } else {
 		     document.write("Baiklah, tetap di sini saja ya :)");
 		 }
 	     </script>
 	     ```
+- **Console Log** adalah biasanya digunakan untuk debugging. Karena setiap pesaan error di Javascript selalu ditampilkan di dalam Console.
+Contohnya:
+	     ```console
+	     console.log("Hello World!");
+	     ```
+- **Comments** adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement.
+	 - Single Comments: 
+	     ```single
+	     // ini single commants
+	     console.log("Hello World!");
+	     ```
+	 - Multiline Comments:
+	     ```multiline
+	     /* ini multilne commants
+	     console.log("Hello World!");
+	     */
+	     ```
+- **Tipe data** adalah sebuah pengklasifikasian data berdasarkan jenis data tersebut.
+Ada 6 macam tipe data fundamaental pada javascript yaitu :
+	 - **Number** : tipe data yang mengandung semua jenis angka.
+	   Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal).
+	 - **String** : tipe data yang terdiri dari huruf, angka, spasi maupun simbol.
+	 - **Boolean** : tipe data yang memiliki nilai true or false.
+	 - **Null** : tipe data pada sebuah data/variabel yang tidak memiliki nilai.
+	 - **Undefined** : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.
+	 - **Object** : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata.
+- **Variabel** merupakan wadah atau tempat untuk menyimpan sebuah nilai. 3 hal yang dapat dilakukan pada variabel:
+	 - Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut.
+	 - Menyimpan dan mengupdate informasi/data yang disimpan.
+	 - Mendapatkan/menampilan data yang tersimpan.
+- Ada 3 cara mendefinisikan sebuah variabel, yaitu:
+	 - var
+	     > **var** digunakan untuk membuat variable dengan scope global.
+	     ```var
+	     var points = 50;
+	     var winner = false;
+	     if(points > 40) {
+	       var winner = true;
+	       // akan menampilkan nilai true dan mengubah nilai variable globalnya menjadi true juga
+	       console.log(winner);
+	     }
+	     
+	     // akan menampilkan nilai true karena kita mengubah nilai winner pada block if dan berefek pada variable pertama
+	     console.log(winner);
+	     ```
+	 - let
+	     > **let** dianjurkan untuk variabel yang dinamis/dapat diubah.
+	     ```let
+	     let points = 50;
+	     let winner = false;
+	     if(points > 40) {
+	       var winner = true;
+	       // akan menampilkan nilai true, karena masih satu scope dengan variable winner yang nilainya true
+	       console.log(winner);
+	     }
+	     
+	     // aakan menampilkan nilai false karena kita mengubah nilai winner pada block if
+	     console.log(winner);
+	     ```
+	 - Const
+	     > **const** digunakan jika variabel tidak dapat diubah nilainya.
+	     ```const
+	     const key = 'abc123';
+	     key = 'xyz1234'; // Akan menampilkan error, bahwa const tidak bisa diubah nilainya
+	     ```
+- Aturan Penamaan Variabel, yaitu:
+	 - Harus mendeskripsikan tentang data yang disimpan.
+	 - Tidak bisa menggunakan number pada awal nama variabel.
+	 - Gunakan camelcase untuk penamaan yang lebih dari 1 kata.
+- **Operator**
+- **Assignment Operator (=)** digunakan untuk menyimpan sebuah nilai pada variabel
+ contohnya : `` let name = 'Irwan'``
+- **Mathematical Assignment Operator**
+- contohnya : 
+  ```
+    let x = 5 ; 
+    x *= 2 ; 
+    console.log(x) // Output: 10
+  ```
+- **Increment dan Decrement** digunakan untuk menambah atau mengurangi sebesar 1 nilai
+- contohnya :
+  ```
+  let a = 10;
+  a++
+    console.log(a) // output: 11
+  ```
+- **Arithmetic Operator** digunakan apabila melibatkan operasi matematika
+  - Pertambahan (+)
+  - Pengurangan (-)
+  - Perkalian (*)
+  - Pembagian (/)
+  - Modulus (%)
+- **Comparism Operator** digunakan untuk membandingkan suatu nilai 
+  - Lebih Besar (>)
+  - Lebih Kecil (<)
+  - Lebih kecil atau samadengan (<=)
+  - Lebih besar atau samadengan (>=)
+  - Samadengan (===)
+  - Tidak Samadengan (!==)
+- **Logical Operator** digunakan untuk sebuah kondisi
+  - AND operator (&&)
+  - OR operator (||)
+  - NOT operator (!)
+
+  &nbsp;
+
+### **Conditional**
+- **Conditional** merupakan statement percabangan yang menggambarkan suatu kondisi. Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut.
+- Contoh Conditional IF Statement dalam Kehidupan.
+	```if
+	- Jika lelah, maka kita akan istirahat.
+	- Jika lapar, kita akan makan.
+	```
+- IF ... ELSE Statement.
+	> Else akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE
+	```if
+	var nilai = 59;
+	if( nilai > 60 ) {
+	   document.write("<b>Bagus!</b>");
+	} else {
+	   document.write("<b>Tidak cukup baik</b>");
+	}
+	```
+- IF … ELSE IF … Statement
+	> Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.
+	```if
+	var siswa = "andi";
+	if( siswa == "budi" ) {
+	   document.write("<b>Budi</b>");
+	} else if( siswa == "joni" ) {
+	   document.write("<b>Joni</b>");
+	} else if( siswa == "andi" ) {
+	   document.write("<b>Andi</b>");
+	} else {
+	   document.write("<b>Siswa tidak terdaftar</b>");
+	}
+	```
+- Switch Case Conditional
+	> switch case digunakan jika kondisi dan percabangan terlalu banyak.
+	```switch
+	let warna = "kuning";
+ 
+		switch (warna){
+			case "hitam":
+				console.log ("warna hitam");
+				break;
+			case "merah":
+				console.log ("warna merah");
+				break;
+			case "hijau":
+				console.log ("warna hijau");
+				break;
+			default:
+			    console.log ("warna tidak terdeteksi");
+		}
+	```
+- Ternary Operator
+	> Ternary operator merupakan short-syntax dari statement if … else.
+	```ternary
+	let isNowSale = true;
+	isNowSale ? console.log('Let's shopping now) : console.log('Shopping later);
+	```
+### **Looping**
