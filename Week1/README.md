@@ -328,3 +328,12 @@ DISPLAY result
   - Conditional: jika dibutuhkan suatu percabangan masalah (if else)
   - Looping    : sebuah perintah yg diulang-ulang
   - Recursive  : sebuah perintah yang memanggil method/function didalam sebuah function
+
+  &nbsp;
+
+## **JavaScript Dasar**
+### JavaScript Introduction
+- **JavaScript** merupakan bahasa pemograman yang berguna untuk membuat interaksi pada website.
+- Menjalankan javascript, yaitu melalui berbagai browser. Namun mozilla dan google chrome merupakan browser yang paling umum digunakan.
+- JavaScript juga biasanya dikenal dengan Syntax
+	> Syntax adalah sebuah aturan yang digunakan untuk menulis kalimat agar mampu dimengerti oleh bahasa pemrograman. Dalam pembuatannya, seluruh aturan syntax harus terpenuhi.
