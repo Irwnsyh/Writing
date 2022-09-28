@@ -337,3 +337,31 @@ DISPLAY result
 - Menjalankan javascript, yaitu melalui berbagai browser. Namun mozilla dan google chrome merupakan browser yang paling umum digunakan.
 - JavaScript juga biasanya dikenal dengan Syntax
 	> Syntax adalah sebuah aturan yang digunakan untuk menulis kalimat agar mampu dimengerti oleh bahasa pemrograman. Dalam pembuatannya, seluruh aturan syntax harus terpenuhi.
+- Contoh Syntax Javascript
+	- Alert()
+	     > ***alert()*** digunakan untuk memunculkan atau menampilkan sebuah pesan informasi atau perintah.
+	     ```alert
+	     windows.alert("Hello World!");
+	     atau
+	     alert("Hello Kawan");
+	     ```
+	- Prompt()
+	     > ***prompt()*** menyatakan suatu tindakan permintaan kepada user, secara sederhana prompt ibarat sebuah form atau text box yang harus diisi oleh user.
+	     ```prompt
+	     <script>
+        	var nama = prompt("Siapa nama kamu?", "");
+        	document.write("<p>Hello "+ nama +"</p>");
+	     </script>
+	     ```
+	- Confirm()
+	     > ***confirm()*** digunakan untuk melakukan konfirmasi dalam melakukan tindakan tertentu.
+	     ```confirm
+	     <script>
+		 var yakin = confirm("Apakah kamu yakin akan mengunjungi petanikode?");
+		 if (yakin) {
+		     window.location = "https://www.petanikode.com";
+		 } else {
+		     document.write("Baiklah, tetap di sini saja ya :)");
+		 }
+	     </script>
+	     ```
