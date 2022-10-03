@@ -31,7 +31,7 @@
   console.log(greeting());
   ```
 - **Argumen** adalah nilai yang digunakan saat memanggil function.
-> Jumlah dari argumen harus sama dengan jumlah parameternya.
+  > Jumlah dari argumen harus sama dengan jumlah parameternya.
 - Contoh Argumen:
   ```argumen
   function penambahan(a,b){
