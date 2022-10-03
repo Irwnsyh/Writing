@@ -55,4 +55,42 @@
     return a + b;
   }
   ```
-- 
+### DOM HTML
+- **DOM** (Document Object Model) adalah interface yang memungkinkan developer memanipulasi halaman web dari segi struktur, tampilan, dan kontennya.
+  > **DOM** merupakan sesuatu yang bisa memanipulasi halaman web HTML 
+- Cara memanggil DOM Value yaitu :
+  - Memanggil tag HTML berdasarkan ID
+  `` console.log(document.getElementByID("header))``
+  - Memanggil tag HTML berdasarkan Class Name 
+  `` console.log(document.getElementByClassName("text-color-blue"))``
+  - Memanggil tag html berdasarkan query selector
+  `` console.log(document.querySelector("#header "))`` 
+  `` console.log(document.querySelector(".text-color-blue"))``
+- Cara memanipulasi content :
+  1. Deklarasi varible header sebagai wadah untuk menyimpan tag HTML
+  `` let header = document.getElementById("header"); ``
+  2. Memanipulasi Content pada Header Content dari pemilik element dengan ID Header dengan text.Content
+  `` document.getElementById("header").textContent = "Teks Heading" `` <br />
+     Memanipulasi Content didalam sebuah element dengan .innerHTML
+  ```
+  <ul id= "list"></ul>
+
+  document.getElementById("list").innerHTML = "<li> item1 </li> <li> item2 </li>"
+  ```
+  - **DOM Events** merupakan object model yang bertugas untuk membantu interaksi user dengan document HTML
+- Contoh HTML DOM events
+  - Click
+  - Scroll
+  - Change
+  - Focus
+  - Hover
+  - Submit
+  - Blur
+- Menangkap Interaksi User
+  - Element.addEventListener("event)
+  - Element.onevent
+- EventListener <br />
+  Dengan menggunakan Element.addEventListener("event") dapat menerapkan beberapa hal yaitu :
+  - Bisa dihilangkan
+  - Bisa ada beberapa event listener yang sama untuk 1 element
+  - Memiliki argument tambahan {options}
