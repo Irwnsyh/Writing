@@ -15,7 +15,7 @@
     ```local
     // Jika variabel "nama" ditempatkan di luar function maka tidak bisa digunakan
     function myFunction() {   
-      name = "Bakso";   
+      name = "irwan";   
     }
     ```
 - **Blocks** merupakan code yang berada dalam curly braces{}.
@@ -30,15 +30,18 @@
   greeting()
   console.log(greeting());
   ```
+  
 - **Argumen** adalah nilai yang digunakan saat memanggil function.
   > Jumlah dari argumen harus sama dengan jumlah parameternya.
+  
 - Contoh Argumen:
   ```argumen
   function penambahan(a,b){
    return a + b;
   }
     console.log(penambahan(5,5))
- ```
+  ```
+ 
 - **Parameter** berfungsi sebagai penerima sebuah pesan dari inputan data yang digunakan untuk melakukan task.
 - Contoh Parameter:
   ```parameter
@@ -46,3 +49,10 @@
     console.log(width * height);
   }
   ```
+- **Arrow Function** merupakan cara lain untuk menuliskan syntax dengan cara lebih pendek. Contoh penulisannya:
+  ```arrow
+  const greeting = (a,b) => {
+    return a + b;
+  }
+  ```
+- 
