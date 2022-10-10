@@ -360,7 +360,7 @@ Pada programming object adalah sebuah tipe data pada variabel yg menyimpan prope
         return `Hello ${this.name} umur ${this.age} dengan nik ${this.nik} penempatan ${this.lokasiPenempatan}`;
         }
         }
-        let pns1 = new PNS("Chaca Caliza", 22, 081119999, "Surabaya");
+        let pns1 = new PNS("Irwansyah", 20, 0821888893, "Bontang");
 
         console.log(pns1.detail());
      ``` 
